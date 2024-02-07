@@ -33,6 +33,7 @@ header {
 }
 .navegacao a {
   text-decoration: none;
+  color: #fff;
 }
 .navegacao a:visited {
   color: #f5f5f5;
@@ -95,7 +96,7 @@ h1 {
 h2 {
   font-family: "Signika Negative", sans-serif;
 }
-h4{
+h4 {
   font-size: 1.8rem;
 }
 .informacao-geral h2 {
@@ -115,14 +116,13 @@ span {
   object-fit: cover;
   border-radius: 15px;
 }
-.link-ex{
+.link-ex {
   text-decoration: none;
   font-weight: bold;
   color: #100f3a;
 }
-.link-ex:visited{
+.link-ex:visited {
   color: #100f3a;
-
 }
 .dois {
   grid-area: c2;
@@ -155,8 +155,8 @@ footer {
 /* final footer */
 
 /* MEDIA QUERY */
-@media (min-width: 1024px){
-  .texto-conteudo ol li{
+@media (min-width: 1024px) {
+  .texto-conteudo ol li {
     font-size: 1.8rem;
   }
 }
@@ -178,7 +178,7 @@ footer {
   h2 {
     font-size: 2rem;
   }
-  .texto-conteudo ol li{
+  .texto-conteudo ol li {
     font-size: 1.5rem;
   }
   .um img {
@@ -216,7 +216,6 @@ footer {
     font-size: 0.8rem;
     padding: 5px;
   }
-  
 }
 @media (max-width: 431px) {
   header {
@@ -249,7 +248,7 @@ footer {
       "a3 "
       "a4 ";
   }
-  h4{
+  h4 {
     font-size: 1rem;
   }
   .division {
@@ -265,7 +264,7 @@ footer {
   .cabecalho {
     grid-area: a0;
   }
-  .texto-conteudo ol li{
+  .texto-conteudo ol li {
     font-size: 1.1rem;
   }
   .um {
@@ -283,8 +282,7 @@ footer {
   .cabecalho {
     margin-bottom: 20vh;
   }
-  footer{
+  footer {
     font-size: 0.8rem;
-  };
-  
+  }
 }
